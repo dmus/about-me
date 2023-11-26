@@ -1,4 +1,4 @@
-![github](https://user-images.githubusercontent.com/31445077/87033150-57166f80-c203-11ea-990c-71a1e0d34ff4.png)
+![github](https://raw.githubusercontent.com/dmus/about-me/main/download.jpeg)
 ### 👋 Hi there 
 I am a deep learning/machine learning engineer and have experience with working in startups as deep learning and computer vision developer👨‍💻. Interested in making life better by letting machines learn. Fascinated about AGI (artificial general intelligence). Highly motivated for solving problems in real applications.
 
