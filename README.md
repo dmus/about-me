@@ -44,7 +44,7 @@ Also the evaluation is an important part. To do this I developed surface distanc
 ![github](https://raw.githubusercontent.com/dmus/about-me/main/eval.png)
 
 #### Generating robotic manipulation trajectories
-
+As deep learning research intern at IBM I worked on a deep learning project for generating manipulation trajectories for a robot arm. This work involved handling multimodal input (point clouds and text) and generating a trajectory in an autoregressive way.
 
 <hr />
 
