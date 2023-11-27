@@ -13,6 +13,7 @@ I am a deep learning/machine learning engineer and have experience with working 
 
 #### Real time 3D player and ball tracking
 
+
 #### Synthetic CT generation
 
 #### Generating robotic manipulation trajectories
