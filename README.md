@@ -12,11 +12,20 @@ I am a deep learning/machine learning engineer and have experience with working 
 ### Projects
 
 #### Real time 3D player and ball tracking
-For a startup in the football industry I worked on real-time autonomous player and ball tracking. To do this we developed fast deep learning based player and ball detections algorithms based on YOLO (You Only Look Once). 
+For a startup in the football industry I worked on real-time autonomous player and ball tracking. This product was used on the highest level in the Netherlands and in England. 
+
+To make this work we developed fast deep learning based player and ball detections algorithms based on YOLO (You Only Look Once). 
 
 ![github](https://raw.githubusercontent.com/dmus/about-me/main/football.jpeg)
 
+The next step was classifying all detections. Is there a jersey number visible and if yes, which number? For this step a lot of labeled data is needed, also for the sparse numbers. Some smart methods were used here to handle this imbalance in the data. 
+
+Besides the jersey number the team has to be classified. The challenge here is that is has to work for all kind of jerseys, even for teams and outfits never seen before. A powerful feature representation was learned, which could be used to say if jerseys are from the same team or not. In combination with clustering algorithms, this yielded a powerful team classifier.
+
+Other components involved are the linking of detections that belong the the same player or the same ball and the translation from image coordinates to world coordinates in 3D. This involves registration algorithms, both deep learning and non deep learning based.
+
 #### Synthetic CT generation
+
 
 #### Generating robotic manipulation trajectories
 
