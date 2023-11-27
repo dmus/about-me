@@ -16,16 +16,32 @@ For a startup in the football industry I worked on real-time autonomous player a
 
 To make this work we developed fast deep learning based player and ball detections algorithms based on YOLO (You Only Look Once). 
 
-![github](https://raw.githubusercontent.com/dmus/about-me/main/football.jpeg)
+![github](https://raw.githubusercontent.com/dmus/about-me/main/football.png)
 
 The next step was classifying all detections. Is there a jersey number visible and if yes, which number? For this step a lot of labeled data is needed, also for the sparse numbers. Some smart methods were used here to handle this imbalance in the data. 
 
 Besides the jersey number the team has to be classified. The challenge here is that is has to work for all kind of jerseys, even for teams and outfits never seen before. A powerful feature representation was learned, which could be used to say if jerseys are from the same team or not. In combination with clustering algorithms, this yielded a powerful team classifier.
 
-Other components involved are the linking of detections that belong the the same player or the same ball and the translation from image coordinates to world coordinates in 3D. This involves registration algorithms, both deep learning and non deep learning based.
+Other components involved are the linking of detections that belong the the same player or the same ball and the translation from image coordinates to world coordinates in 3D. This involves registration algorithms for the field, both deep learning and non deep learning based.
+
+![github](https://raw.githubusercontent.com/dmus/about-me/main/teaser.png)
 
 #### Synthetic CT generation
+For a startup in the medical industry I worked on generating synthetic CT images from MRI images to avoid harmful radiation. This is used in several hospitals around the world. This work also requires multiple deep learning components. A challenging aspect is that medical 3D images are very large and cannot be loaded completely on (most) GPUs.
 
+Localization and segmentations of bones are needed to detect the rigid parts of an image. First bones are localized and then a region around the detected landmark is cropped and segmented.
+
+![github](https://raw.githubusercontent.com/dmus/about-me/main/landmarks.png)
+
+A combination of deformable and nondeformable registration algorithms is used to generate high quality paired data that can be used for supervised learning algorithms.
+
+3D image to image deep learning algorithms are used to generate the synthetic CTs. Multiple methods are developed, based on CNNs (convolutional neural networks), GANs (Generative Adverserial Neural Networks), PerceiverIO (transformed based neural networks) and diffusion models.
+
+![github](https://raw.githubusercontent.com/dmus/about-me/main/synct.png)
+
+Also the evaluation is an important part. To do this I developed surface distance metrics and visualizations to measure and show distances between the bones on the original CT and the synthetic CT.
+
+![github](https://raw.githubusercontent.com/dmus/about-me/main/eval.png)
 
 #### Generating robotic manipulation trajectories
 
