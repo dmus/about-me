@@ -1,4 +1,3 @@
-![github](https://raw.githubusercontent.com/dmus/about-me/main/cars.jpeg)
 ### 👋 Hi there 
 I am a deep learning/machine learning engineer and have experience with working in startups as deep learning and computer vision developer👨‍💻. Interested in making life better by letting machines learn. Fascinated about AGI (artificial general intelligence). Highly motivated for solving problems in real applications.
 
